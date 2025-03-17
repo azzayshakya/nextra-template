@@ -1,98 +1,36 @@
-# 🚀 Nextra Template
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Welcome to the **Nextra Template**! This project is built using **Nextra**, a powerful and flexible documentation framework based on **Next.js**.
+## Getting Started
 
-## 📌 Features
-- 🌎 Easy-to-use **file-based routing**
-- 📚 Supports **Markdown & MDX** for content writing
-- 🎨 Customizable themes and layouts
-- ⚡ Fast performance with **Next.js 15 & Turbopack**
-- 🔍 Built-in search functionality
+First, run the development server:
 
----
-
-## 📦 Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-repo/nextra-template.git
-cd nextra-template
-```
-
-### 2️⃣ Install Dependencies
-```bash
-npm install
-```
-
-### 3️⃣ Run the Development Server
 ```bash
 npm run dev
-```
-The app will be available at **http://localhost:3000**.
-
----
-
-## 📂 Project Structure
-```
-📁 nextra-template
-├── 📁 pages
-│   ├── 📄 index.mdx         # Homepage
-│   ├── 📄 about.mdx         # About page
-│   ├── 📁 docs              # Documentation section
-│   │   ├── 📄 introduction.mdx
-│   │   ├── 📄 installation.mdx
-│   │   ├── 📄 usage.mdx
-│   ├── 📄 _meta.json        # Metadata for navigation
-├── 📁 public                # Static assets
-├── 📁 theme                 # Custom Nextra theme
-├── 📄 next.config.ts        # Next.js configuration
-├── 📄 tsconfig.json         # TypeScript configuration
-└── 📄 package.json          # Project dependencies
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🛠 Customization
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### 🔧 Updating Metadata
-Modify `_meta.json` inside the **pages/docs/** folder to update the sidebar navigation:
-```json
-{
-  "*": "Documentation",
-  "introduction": "Introduction",
-  "installation": "Installation",
-  "usage": "Usage Guide"
-}
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 🎨 Theming
-To customize the theme, edit the `theme.config.tsx` file:
-```tsx
-export default {
-  logo: "new logo",
-  primaryHue: 220,
-  sidebar: true,
-};
-```
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-## 🚀 Deployment
-To deploy the site on **Vercel**, run:
-```bash
-npm run build
-npm run start
-```
-Or deploy directly from **Vercel Dashboard**.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 📖 Learn More
-- [Nextra Documentation](https://nextra.site/)
-- [Next.js Docs](https://nextjs.org/docs)
-- [MDX Guide](https://mdxjs.com/)
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-💡 **Enjoy building with Nextra!** 🚀
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
